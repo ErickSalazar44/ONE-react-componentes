@@ -19,7 +19,7 @@ const Colaborador = ({
         <div className='w-[262px] mb-6'>
             <header
                 style={{ background: `${colorPrimario}` }}
-                className='rounded-[10px] h-[91px] relative transition-colors'
+                className=' rounded-t-lg h-[91px] relative transition-colors'
             >
                 <img
                     className='w-[120px] rounded-full relative bottom-[-30px] mx-auto'
@@ -31,11 +31,11 @@ const Colaborador = ({
                     onClick={handleModal}
                 />
             </header>
-            <article className='bg-white shadow-sm rounded-b-[10px] pt-20 pb-10 font-[Montserrat]'>
+            <article className='min-h-[218px] bg-white shadow-sm rounded-b-[10px] pt-16 pb-10 font-[Montserrat]'>
                 <h4 className='text-main text-lg font-semibold mb-2'>
                     {colaborador.name}
                 </h4>
-                <h5 className='text-lg text-[#212121] py-0 px-6 font-normal m-0'>
+                <h5 className='text-base text-[#212121] py-0 px-6 font-normal m-0'>
                     {colaborador.puesto}
                 </h5>
                 {colaborador.fav ? (

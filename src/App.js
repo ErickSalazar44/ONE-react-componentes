@@ -23,28 +23,65 @@ function App() {
         {
             id: uuidv4(),
             equipo: "Front End",
-            foto: "https://github.com/ErickSalazar44.png",
-            name: "Erick Salazar",
-            puesto: "Desarrollador Web ",
+            foto: "https://avatars.githubusercontent.com/u/54962126?v=4",
+            name: "Genesys Rondón",
+            puesto: "Desarrolladora de software e instructora",
             fav: false,
         },
         {
             id: uuidv4(),
             equipo: "Front End",
-            foto: "https://github.com/ErickSalazar44.png",
-            name: "Erick Salazar",
-            puesto: "Desarrollador Web ",
+            foto: "https://github.com/harlandlohora.png",
+            name: "Harland Lohora",
+            puesto: "Sr. Software Engineer",
             fav: false,
         },
         {
             id: uuidv4(),
             equipo: "Front End",
+            foto: "https://github.com/JeanmarieAluraLatam.png",
+            name: "Jeanmarie Quijada",
+            puesto: "Instructuro en Alura Latam",
+            fav: false,
+        },
+        {
+            id: uuidv4(),
+            equipo: "Programación",
+            foto: "https://github.com/christianpva.png",
+            name: "Christian Velasco",
+            puesto: "Head de Alura instructor",
+            fav: false,
+        },
+        {
+            id: uuidv4(),
+            equipo: "Programación",
+            foto: "https://github.com/JoseDarioGonzalezCha.png",
+            name: "Jose Gonzalez",
+            puesto: "Dev. Full Stack",
+            fav: false,
+        },
+        {
+            id: uuidv4(),
+            equipo: "Programación",
             foto: "https://github.com/ErickSalazar44.png",
             name: "Erick Salazar",
-            puesto: "Desarrollador Web ",
+            puesto: "Desarrollador Web",
+            fav: true,
+        },
+        {
+            id: uuidv4(),
+            equipo: "Programación",
+            foto: "https://avatars.githubusercontent.com/u/54962126?v=4",
+            name: "Genesys Rondón",
+            puesto: "Desarrolladora de software e instructora",
             fav: false,
         },
     ]);
+
+    /*
+
+        https://github.com/JoseDarioGonzalezCha.png
+    */
 
     // estado para actualizar los equipos y sus propiedades
     const [equipos, setEquipos] = useState([
